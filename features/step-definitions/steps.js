@@ -2,8 +2,6 @@ import { Given, When, Then } from "@wdio/cucumber-framework";
 import RegisterPage from "../pageobjects/register.page.js";
 import LoginPage from "../pageobjects/login.page.js";
 import updateContactInfoPage from "../pageobjects/updateContactInfo.page.js";
-import transferPage from "../pageobjects/transfer.page.js";
-import CustomerLookupPage from "../pageobjects/CustomerLookup.page.js";
 import loginPage from "../pageobjects/login.page.js";
 
 const pages = {
