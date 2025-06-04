@@ -1,7 +1,7 @@
 Feature: Para Bank Update Contact Info Feature
 
   Background:
-    Given I login with username <username> and password <password>
+    Given I login with <username> and <password>
 
   Scenario Outline: As a user, I can update my contact info into the Para Bank Website
     Given I am on the update contact info page
